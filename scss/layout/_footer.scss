@@ -1,0 +1,25 @@
+footer {
+  @include grid-column(1,$row-single);
+  width:100%;
+  background-color:$nav-background;
+  display:flex;
+  justify-content: center;
+  height:100px;
+  a {
+    color:black;
+    margin:20px 35px 0;
+
+    &:nth-of-type(n+4) {
+      margin-top:28px;
+    }
+
+  }
+
+  @include grid-media($tablet){
+  a {
+    margin:20px 10px 0;
+    font-size:15px;
+  }
+ }
+
+}

@@ -1,0 +1,47 @@
+/* COLOURS
+========================================================================== */
+$black: #00171F;
+$dark-blue: #003459;
+$blue:#007EA7;
+$light-blue:#5bc0de;
+$light-blue:#00A8E8;
+$pink:#F5DDDD;
+$grey:#8c8383;
+$light-grey:#d7d7d7;
+
+/* LINKS
+========================================================================== */
+$link-primary: $grey;
+$link-secondary:$light-grey;
+
+/* BUTTONS
+========================================================================== */
+$radius-button: 5px;
+
+
+
+/* FONTS
+========================================================================== */
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: Arial, Helvetica, sans-serif;
+$font-size-primary: 20px;
+
+/* SCREEN WIDTHS
+========================================================================== */
+
+$small-screen-min-width: 320px;
+$small-screen-max-width: 767px;
+$medium-screen-min-width: 768px;
+$medium-screen-max-width: 1024px;
+$large-screen-min-width: 1025px;
+
+/* NAV BAR
+========================================================================== */
+$nav-height:140px;
+$content-width:1000px; // for nav container
+$nav-font-color:white;
+$nav-background:$grey;
+
+/* RESPONSIVE
+========================================================================== */
+$breakpoint: 1000px;

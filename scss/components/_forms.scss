@@ -1,0 +1,40 @@
+
+input {
+  width:190px;
+  height:35px;
+  border:$light-grey 0.5px solid;
+  border-radius:5px;
+
+  &:focus {
+    border:$light-blue 2px solid;
+  }
+
+  margin-bottom:10px;
+  font-size:15px;
+  padding: 20px;
+}
+
+// message when you sign up email
+#submit-thank-you {
+  position: absolute;
+  display:none;
+  color:$light-blue;
+  font-size:20px;
+  bottom:-5px;
+}
+
+//MODAL  ==================================================================================================
+
+
+
+  // .overlay {
+  //   z-index:200px;
+  //   position:absolute;
+  //   background:$grey;
+  //   top:0;
+  //   left:0;
+  //   right:0;
+  //   bottom:0;
+  //   height:100%;
+  //   width:100%;
+  // }

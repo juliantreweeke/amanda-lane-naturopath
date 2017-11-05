@@ -1,0 +1,47 @@
+
+
+/* LIBRARIES Default fall-backs and external files.
+========================================================================== */
+
+@import "libraries/bourbon/bourbon.scss";
+@import "libraries/neat/neat.scss";
+
+
+/* HELPERS
+========================================================================== */
+@import 'helpers/_variables.scss';
+@import 'helpers/_helpers.scss';
+@import 'helpers/_mixins.scss';
+@import 'helpers/_placeholders.scss';
+@import 'helpers/_breakpoints.scss';
+
+
+/* LAYOUT - Structure and layout files.
+========================================================================== */
+
+@import 'layout/_grid.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_header.scss';
+@import 'layout/_navigation.scss';
+@import 'layout/_sidebar.scss';
+
+/* COMPONENTS - Re-usable and Global site elements.
+========================================================================== */
+
+@import 'components/_buttons.scss';
+@import 'components/_forms.scss';
+@import 'components/_images.scss';
+// @import 'components/_lists.scss';
+
+/* PAGES - Specific classes for pages
+========================================================================== */
+
+@import 'pages/_contact.scss';
+@import 'pages/_home.scss';
+
+/* BASE - Global Classes?
+========================================================================== */
+
+@import "global/reset.scss";
+@import "global/global.scss";
+@import "global/typography.scss";

@@ -1,0 +1,38 @@
+%bg-image {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+%img-banner {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+  @include grid-column(1,$row-single);
+  @extend %bg-image;
+  // min-height:350px;
+  min-height:50vh;
+
+  h1 {
+
+    max-width: 70%;
+    font-size:3em;
+  }
+}
+
+.img-small {
+ width: 350px;
+ max-width: 80%;
+ max-height: 350px;
+ border-radius:7px;
+ }
+
+ #banner-global {
+   @extend %img-banner;
+   background-image: url('../img/blog.jpg');
+   min-height:50vh;
+ }
+
+//

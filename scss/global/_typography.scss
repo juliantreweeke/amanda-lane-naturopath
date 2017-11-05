@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family:$font-primary;
+}
+
+.primary-color{
+  color:$black;
+}
+.secondary-color{
+  color:white;
+}
+
+.heading {
+  font-size:2em;
+  padding-top:20px;
+  text-align: center;
+}
+
+p {
+  font-size:0.8em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+
+h2,h5 {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+
+  font-size: 20px;
+
+  @media (max-width: 500px){
+    font-size: 17px
+  }
+}
+
+.banner-text-container {
+    position: absolute;
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -50%); /* precise centering; see link below */
+}

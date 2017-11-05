@@ -1,0 +1,135 @@
+
+
+#banner {
+  @include grid-column(1,$row-single);
+  display: relative;
+  text-align: center;
+  background-image: url('../img/background.jpg');
+  @extend %bg-image;
+  min-height:350px;
+  // min-height:100%;
+
+  div:nth-child(2) {
+    display:absolute;
+    margin-top:0.5em;
+  }
+
+  button {
+    margin-top:10px;
+  }
+
+  @include grid-media($tablet) {
+  h1 {
+    font-size:1.5em;
+    text-align: center;
+   }
+  }
+
+}
+
+.heading-browse {
+  display: flex;
+  margin: 10px 0;
+
+  h2 {
+    margin-left: 70px;
+  }
+  @include grid-column(1,$row-single);
+  @include grid-media($tablet) {
+    justify-content: center;
+
+    h2 {
+      margin-left: 0;
+    }
+  }
+}
+
+.container {
+  margin-bottom:20px;
+
+  text-align: center;
+  p,h3 {
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  @include grid-column(1,$column-thirds);
+  @include grid-media($tablet){
+    @include grid-column(12,$tablet);
+ }
+}
+
+
+#banner-2 {
+  @extend %img-banner;
+  background-image: url('../img/blog.jpg');
+}
+
+#info {
+text-align: center;
+font-size:20px;
+
+}
+
+.info-container {
+  margin-bottom:20px;
+  @include grid-column(1,$column-two);
+  @include grid-media($tablet){
+    @include grid-column(12,$tablet);
+    padding:0 5%;
+
+ }
+}
+
+#sign-up  {
+
+  @include grid-column(1,$row-single-center);
+
+  text-align: center;
+
+  @include grid-media($tablet){
+    @include grid-column(12,$tablet);
+
+ }
+
+}
+
+#banner-3 {
+  @extend %img-banner;
+  background-image: url('../img/banner.jpg');
+  cursor: pointer;
+  h1 {
+    // color:black;
+  }
+}
+
+#logos {
+  @include grid-column(1,$row-single);
+  display:flex;
+  justify-content: center;
+  width:100%;
+  img {
+    width:100px;
+    height:100px;
+    margin:15px 40px 0;
+  }
+
+  @include grid-media($tablet){
+  img {
+    margin:10px 0px;
+  }
+ }
+}
+
+
+
+
+
+ // .media {
+ //  display: inline;
+ //  text-align: center;
+ //  @include grid-column(1,$column-grid);
+ //  p {
+ //    font-size: 500px;
+ //  }
+ // }
