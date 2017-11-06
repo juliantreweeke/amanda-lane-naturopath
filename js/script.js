@@ -75,6 +75,8 @@ $( window ).resize(function() {
     }
   });
 
+  // MODAL
+
 
 
 
