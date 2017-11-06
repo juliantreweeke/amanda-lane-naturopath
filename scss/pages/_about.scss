@@ -1,7 +1,47 @@
 
 
-  
 
-  
+#about-me {
+  @include grid-container;
+
+  @include grid-media($tablet){
+    @include grid-column(12,$tablet);
+    padding:10px;
+    h2 {
+      text-align: center;
+    }
+  }
 
 
+  img {
+    @include grid-column(4);
+    width:300px;
+    height:auto;
+    border-radius:15px;
+
+    @include grid-media($tablet){
+      @include grid-column(12,$tablet);
+      margin-bottom:20px;
+      // padding:10px;
+   }
+  }
+
+  .about-text {
+    @include grid-column(8);
+    @include grid-media($tablet){
+      @include grid-column(12,$tablet);
+   }
+  }
+
+  .about-text-more {
+    @include grid-column(12);
+    @include grid-media($tablet){
+      @include grid-column(12,$tablet);
+   }
+  }
+
+
+
+
+
+}
